@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký & Đăng Nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"><img src="https://i.pinimg.com/736x/08/c5/6e/08c56e3a75328f46aec43c454532d314.jpg" style="width: 100%;"></div> <!-- Hình nền -->
+    <div class="container">
+        <div class="form-box">
+            <h2 id="form-title">Đăng Nhập</h2>
+            <form id="authForm">
+                <input type="text" id="username" placeholder="Tên đăng nhập" required>
+                <input type="password" id="password" placeholder="Mật khẩu" required>
+                <input type="email" id="email" placeholder="Email" style="display: none;">
+                <button type="submit" id="submit-btn">Đăng nhập</button>
+            </form>
+            <p id="error-msg"></p>
+            <p id="toggle-text">Chưa có tài khoản? <a href="#" id="toggle-link">Đăng ký</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

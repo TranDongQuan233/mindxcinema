@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Hình nền toàn màn hình */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    filter: blur(5px); /* Hiệu ứng mờ */
+}
+
+/* Căn giữa form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+}
+
+/* Form đăng nhập */
+.form-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    backdrop-filter: blur(10px); /* Hiệu ứng kính mờ */
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#error-msg {
+    color: red;
+    margin-top: 10px;
+}
+
+#toggle-text {
+    margin-top: 10px;
+    color: white;
+}
+
+#toggle-text a {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
